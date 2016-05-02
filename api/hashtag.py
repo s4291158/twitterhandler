@@ -24,7 +24,7 @@ def search(ts, since_id=0):
             tso.set_since_id(since_id)
         tso.set_result_type("recent")
 
-        get_rate_limit(ts)
+        # get_rate_limit(ts)
 
         tweets_org = ts.search_tweets_iterable(tso)
         # print(tso.url)
