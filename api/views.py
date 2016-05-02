@@ -15,7 +15,7 @@ timer_dict = {
 }
 
 
-@login_required(login_url='/admin')
+@login_required(login_url='/admin/')
 def index(request):
     context = {}
     print(timer.is_running)
