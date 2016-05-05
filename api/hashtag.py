@@ -15,6 +15,11 @@ def get_rate_limit(ts):
     print("rate_limit_remain: {0}".format(search_limit))
 
 
+def text_to_instruction(text):
+
+    return
+
+
 def search(ts, since_id=0):
     try:
         start = time.time()
